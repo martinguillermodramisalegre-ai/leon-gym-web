@@ -1,0 +1,46 @@
+{
+  "hero": {
+    "src": "assets/img/hero.webp",
+    "title": "2013_08_12_Weight_Lifters_E",
+    "creator": "AMISOM Public Information",
+    "creator_url": "https://www.flickr.com/photos/61765479@N08",
+    "license": "cc0",
+    "license_version": "1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/61765479@N08/9501244178",
+    "source": "flickr"
+  },
+  "g2": {
+    "src": "assets/img/g2.webp",
+    "title": "dumbbells_adjusted",
+    "creator": "jerryonlife",
+    "creator_url": "https://www.flickr.com/photos/34909987@N07",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/34909987@N07/3265269814",
+    "source": "flickr"
+  },
+  "g5": {
+    "src": "assets/img/g5.webp",
+    "title": "Fitness Model Arm Curls",
+    "creator": "personaltrainertoronto",
+    "creator_url": "https://www.flickr.com/photos/121183998@N08",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/121183998@N08/13335780903",
+    "source": "flickr"
+  },
+  "g6": {
+    "src": "assets/img/g6.webp",
+    "title": "Two sporty women doing exercise abdominal crunches, pumping a press on floor in gym concept training",
+    "creator": "nayanathara19",
+    "creator_url": "https://www.flickr.com/photos/145415800@N03",
+    "license": "pdm",
+    "license_version": "1.0",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/145415800@N03/28290929600",
+    "source": "flickr"
+  }
+}

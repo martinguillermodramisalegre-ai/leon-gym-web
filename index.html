@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>León Gym | Gimnasio en San Miguel de Tucumán</title>
+  <meta name="description" content="León Gym: gimnasio en Eudoro Aráoz 775, San Miguel de Tucumán. Musculación, cardio y entrenamiento con profes. Lunes a viernes de 8 a 22 hs, sábados de 8 a 15 hs.">
+  <meta name="theme-color" content="#0d0d0d">
+  <meta property="og:title" content="León Gym | Gimnasio Tucumán">
+  <meta property="og:description" content="Entrená con actitud de león. Eudoro Aráoz 775, San Miguel de Tucumán.">
+  <meta property="og:image" content="assets/img/hero.webp">
+  <link rel="icon" href="assets/img/favicon.svg?v=20261109" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=20261109">
+
+  <!-- ============================================================
+       DATOS DEL GIMNASIO — EDITÁ ACÁ
+       Poné el número de WhatsApp con código de país, sin espacios ni "+".
+       Ejemplo Tucumán: 5493815551234  (54 = Argentina, 9 = celular, 381 = Tucumán)
+       Mientras tenga X, los botones de WhatsApp abren el Instagram.
+       ============================================================ -->
+  <script>
+    window.__LEON__ = {
+      whatsapp: "549381XXXXXXX",
+      mensaje: "¡Hola León Gym! Quiero info sobre los planes y horarios.",
+      instagram: "https://www.instagram.com/leongym.tucuman/"
+    };
+  </script>
+  <script src="main.js?v=20261109" defer></script>
+</head>
+<body>
+
+  <!-- ============ NAVEGACIÓN ============ -->
+  <header class="nav" id="nav">
+    <a href="#inicio" class="nav__brand" aria-label="León Gym, ir al inicio">
+      <!-- LOGO: reemplazá este SVG por <img src="assets/img/logo.png" alt="León Gym" class="nav__logo"> -->
+      <svg class="nav__logo" viewBox="0 0 40 46" aria-hidden="true"><path d="M20 1 38 8v14c0 11-7.6 19.6-18 23C9.6 41.6 2 33 2 22V8z" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M14 13h4v16h9v4H14z" fill="currentColor"/></svg>
+      <span>LEÓN<b>GYM</b></span>
+    </a>
+    <nav class="nav__links" id="menu" aria-label="Secciones">
+      <a href="#nosotros">Nosotros</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#planes">Planes</a>
+      <a href="#horarios">Horarios</a>
+      <a href="#galeria">Galería</a>
+      <a href="#ubicacion">Ubicación</a>
+      <a href="#contacto" class="nav__cta" data-wa>Escribinos</a>
+    </nav>
+    <button class="nav__burger" id="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <!-- ============ PORTADA ============ -->
+    <section class="hero" id="inicio">
+      <!-- FOTO DE PORTADA: reemplazá assets/img/hero.webp por una foto del gimnasio (horizontal, ideal 2000px de ancho) -->
+      <div class="hero__bg" style="background-image:url('assets/img/hero.webp')" role="img" aria-label="Personas entrenando en un gimnasio"></div>
+      <div class="hero__shade"></div>
+      <div class="hero__content">
+        <p class="hero__tag"><span class="dot" id="openDot"></span><span id="openText">San Miguel de Tucumán</span></p>
+        <h1 class="hero__title">
+          <span class="line"><span>Entrená</span></span>
+          <span class="line"><span>con actitud</span></span>
+          <span class="line line--gold"><span>de león.</span></span>
+        </h1>
+        <p class="hero__lead">Musculación, cardio y profes que te acompañan. Vení a Eudoro Aráoz 775 y arrancá hoy.</p>
+        <div class="hero__actions">
+          <a class="btn btn--gold" href="https://www.instagram.com/leongym.tucuman/" data-wa target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg>
+            Consultá por WhatsApp
+          </a>
+          <a class="btn btn--ghost" href="#planes">Ver planes</a>
+        </div>
+      </div>
+      <a href="#nosotros" class="hero__scroll" aria-label="Bajar">↓</a>
+    </section>
+
+    <!-- ============ CINTA ============ -->
+    <div class="strip" aria-hidden="true">
+      <div class="strip__track">
+        <span>Musculación</span><i>✦</i><span>Cardio</span><i>✦</i><span>Rutinas a medida</span><i>✦</i><span>Profes en sala</span><i>✦</i><span>Tucumán</span><i>✦</i>
+        <span>Musculación</span><i>✦</i><span>Cardio</span><i>✦</i><span>Rutinas a medida</span><i>✦</i><span>Profes en sala</span><i>✦</i><span>Tucumán</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- ============ NOSOTROS ============ -->
+    <section class="section about" id="nosotros">
+      <div class="wrap about__grid">
+        <div class="about__text reveal">
+          <p class="eyebrow">Quiénes somos</p>
+          <h2 class="h2">Un gimnasio de barrio con <em>garra</em>.</h2>
+          <p>En León Gym entrenás en serio, pero sin poses. Tenemos sala de musculación completa, zona de cardio y profes que te arman la rutina y te corrigen la técnica, vengas a empezar de cero o a levantar más que nunca.</p>
+          <p>Estamos en el centro de San Miguel de Tucumán, abiertos de lunes a sábado, para que puedas entrenar antes del laburo, en la hora del almuerzo o a la noche.</p>
+          <ul class="stats">
+            <li><strong data-count="6900">6.900</strong><span>+ seguidores en Instagram</span></li>
+            <li><strong>6</strong><span>días por semana abiertos</span></li>
+            <li><strong>14</strong><span>horas por día, de lunes a viernes</span></li>
+          </ul>
+        </div>
+        <figure class="about__img reveal">
+          <!-- FOTO: reemplazá assets/img/g2.webp por una foto de la sala -->
+          <img src="assets/img/g2.webp" alt="Hilera de mancuernas en la sala de musculación" loading="lazy" width="1024" height="768">
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ SERVICIOS ============ -->
+    <section class="section services" id="servicios">
+      <div class="wrap">
+        <p class="eyebrow reveal">Qué podés hacer</p>
+        <h2 class="h2 reveal">Todo para entrenar, <em>en un solo lugar</em>.</h2>
+        <div class="cards">
+          <article class="card reveal">
+            <span class="card__num">01</span>
+            <h3>Musculación</h3>
+            <p>Barras, discos, mancuernas, bancos y máquinas para trabajar todo el cuerpo.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__num">02</span>
+            <h3>Cardio</h3>
+            <p>Cintas y bicis para calentar, quemar y sumar resistencia.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__num">03</span>
+            <h3>Rutinas a medida</h3>
+            <p>Los profes te arman un plan según tu objetivo: bajar de peso, ganar músculo o ponerte en forma.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__num">04</span>
+            <h3>Funcional y bolsa</h3>
+            <p>Zona para trabajos funcionales y bolsa de boxeo. <span class="todo">[CONFIRMAR si dan clases y en qué horario]</span></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PLANES ============ -->
+    <section class="section plans" id="planes">
+      <div class="wrap">
+        <p class="eyebrow reveal">Planes</p>
+        <h2 class="h2 reveal">Elegí cómo <em>entrenar</em>.</h2>
+        <p class="note reveal">Los precios cambian seguido: escribinos y te pasamos los valores actualizados.</p>
+        <!-- PLANES: los nombres y precios son de EJEMPLO. Cambialos por los reales. -->
+        <div class="plans__grid">
+          <article class="plan reveal">
+            <h3>3 veces por semana</h3>
+            <p class="plan__price"><span class="todo">$ A COMPLETAR</span><small>/mes</small></p>
+            <ul><li>Sala de musculación y cardio</li><li>Rutina armada por un profe</li></ul>
+            <a class="btn btn--ghost btn--full" href="https://www.instagram.com/leongym.tucuman/" data-wa data-plan="3 veces por semana" target="_blank" rel="noopener">Quiero este plan</a>
+          </article>
+          <article class="plan plan--featured reveal">
+            <span class="plan__badge">Recomendado</span>
+            <h3>Pase libre</h3>
+            <p class="plan__price"><span class="todo">$ A COMPLETAR</span><small>/mes</small></p>
+            <ul><li>Vení todos los días que quieras</li><li>Sala de musculación y cardio</li><li>Rutina armada por un profe</li></ul>
+            <a class="btn btn--gold btn--full" href="https://www.instagram.com/leongym.tucuman/" data-wa data-plan="Pase libre" target="_blank" rel="noopener">Quiero este plan</a>
+          </article>
+          <article class="plan reveal">
+            <h3>Clase / pase diario</h3>
+            <p class="plan__price"><span class="todo">$ A COMPLETAR</span></p>
+            <ul><li>Ideal para probar o si estás de paso</li><li>Acceso a toda la sala por el día</li></ul>
+            <a class="btn btn--ghost btn--full" href="https://www.instagram.com/leongym.tucuman/" data-wa data-plan="Pase diario" target="_blank" rel="noopener">Consultar</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ HORARIOS ============ -->
+    <section class="section hours" id="horarios">
+      <div class="wrap hours__grid">
+        <div class="reveal">
+          <p class="eyebrow">Horarios</p>
+          <h2 class="h2">Abrimos <em>temprano</em>, cerramos tarde.</h2>
+          <p class="hours__status" id="statusBox">Lunes a viernes de 8 a 22 hs · Sábados de 8 a 15 hs</p>
+        </div>
+        <table class="table reveal" id="hoursTable">
+          <tbody>
+            <tr data-day="1"><th>Lunes</th><td>8:00 – 22:00</td></tr>
+            <tr data-day="2"><th>Martes</th><td>8:00 – 22:00</td></tr>
+            <tr data-day="3"><th>Miércoles</th><td>8:00 – 22:00</td></tr>
+            <tr data-day="4"><th>Jueves</th><td>8:00 – 22:00</td></tr>
+            <tr data-day="5"><th>Viernes</th><td>8:00 – 22:00</td></tr>
+            <tr data-day="6"><th>Sábado</th><td>8:00 – 15:00</td></tr>
+            <tr data-day="0"><th>Domingo y feriados</th><td class="muted">Consultar</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ============ GALERÍA ============ -->
+    <section class="section gallery" id="galeria">
+      <div class="wrap">
+        <p class="eyebrow reveal">Galería</p>
+        <h2 class="h2 reveal">Así se <em>entrena</em> acá.</h2>
+        <!-- GALERÍA: reemplazá cada imagen por fotos propias del gimnasio (guardalas en assets/img/).
+             Los recuadros "Tu foto acá" son para que agregues las tuyas: cambiá el <div class="ph"> por <img src="assets/img/tu-foto.webp" alt="..."> -->
+        <div class="gallery__grid">
+          <figure class="g g--tall reveal"><img src="assets/img/g5.webp" alt="Entrenamiento con mancuernas" loading="lazy"></figure>
+          <figure class="g reveal"><div class="ph">Tu foto acá<small>Sala de musculación</small></div></figure>
+          <figure class="g reveal"><img src="assets/img/g2.webp" alt="Mancuernas en el rack" loading="lazy"></figure>
+          <figure class="g g--wide reveal"><img src="assets/img/g6.webp" alt="Ejercicio de abdominales" loading="lazy"></figure>
+          <figure class="g reveal"><div class="ph">Tu foto acá<small>Zona de cardio</small></div></figure>
+          <figure class="g reveal"><div class="ph">Tu foto acá<small>El equipo de profes</small></div></figure>
+        </div>
+        <p class="center reveal"><a class="link" href="https://www.instagram.com/leongym.tucuman/" target="_blank" rel="noopener">Mirá más en Instagram @leongym.tucuman →</a></p>
+      </div>
+    </section>
+
+    <!-- ============ UBICACIÓN ============ -->
+    <section class="section location" id="ubicacion">
+      <div class="wrap location__grid">
+        <div class="reveal">
+          <p class="eyebrow">Ubicación</p>
+          <h2 class="h2">Eudoro Aráoz <em>775</em></h2>
+          <p>San Miguel de Tucumán, Tucumán, Argentina.</p>
+          <a class="btn btn--ghost" href="https://www.google.com/maps/search/?api=1&query=Eudoro+Ar%C3%A1oz+775+San+Miguel+de+Tucum%C3%A1n" target="_blank" rel="noopener">Cómo llegar</a>
+        </div>
+        <div class="map reveal">
+          <iframe title="Mapa de León Gym, Eudoro Aráoz 775" src="https://www.google.com/maps?q=Eudoro+Ar%C3%A1oz+775,+San+Miguel+de+Tucum%C3%A1n,+Tucum%C3%A1n&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACTO ============ -->
+    <section class="section contact" id="contacto">
+      <div class="wrap contact__box reveal">
+        <h2 class="h2">¿Arrancás <em>esta semana</em>?</h2>
+        <p>Escribinos y te contamos planes, precios y cómo empezar. Respondemos rápido.</p>
+        <div class="contact__actions">
+          <a class="btn btn--gold" href="https://www.instagram.com/leongym.tucuman/" data-wa target="_blank" rel="noopener">WhatsApp</a>
+          <a class="btn btn--ghost" href="https://www.instagram.com/leongym.tucuman/" target="_blank" rel="noopener">Instagram</a>
+        </div>
+        <ul class="contact__list">
+          <li><span>Dirección</span>Eudoro Aráoz 775, San Miguel de Tucumán</li>
+          <li><span>WhatsApp</span><b class="todo" id="waText">A COMPLETAR</b></li>
+          <li><span>Instagram</span>@leongym.tucuman</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <p><b>LEÓN GYM</b> · Eudoro Aráoz 775 · San Miguel de Tucumán</p>
+      <p class="credits">Fotos de ejemplo: “Weight Lifters” de AMISOM Public Information (CC0), “dumbbells” de jerryonlife (CC BY 2.0), “Fitness Model Arm Curls” de personaltrainertoronto (CC BY 2.0), foto de nayanathara19 (dominio público), vía Openverse/Flickr.</p>
+      <p>© <span id="year">2026</span> León Gym</p>
+    </div>
+  </footer>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a class="wa-float" href="https://www.instagram.com/leongym.tucuman/" data-wa target="_blank" rel="noopener" aria-label="Escribinos por WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg>
+  </a>
+</body>
+</html>

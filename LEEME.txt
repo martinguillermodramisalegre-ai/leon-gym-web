@@ -1,0 +1,33 @@
+LEÓN GYM — PÁGINA WEB
+=====================
+
+QUÉ COMPLETAR (buscá "A COMPLETAR" o "CONFIRMAR" en index.html)
+1. WhatsApp: arriba de todo en index.html, en  whatsapp: "549381XXXXXXX"
+   Poné el número así: 549 + código de área + número, sin espacios. Ej: 5493815551234
+   Mientras tenga X, todos los botones de WhatsApp llevan al Instagram.
+   Además, en la sección Contacto cambia solo el texto "A COMPLETAR" por el número.
+2. Planes y precios (sección PLANES): los nombres son de ejemplo. Cambiá nombres,
+   lo que incluye cada uno y reemplazá "$ A COMPLETAR" por el precio.
+3. Servicios: confirmá si hay clases (funcional, boxeo, etc.) y en qué horario.
+4. Domingos y feriados: hoy dice "Consultar". Si cierran, poné "Cerrado".
+
+FOTOS (ahora son fotos libres de ejemplo, no son del gimnasio)
+- Portada:     assets/img/hero.webp
+- Nosotros:    assets/img/g2.webp
+- Galería:     assets/img/g5.webp, g2.webp, g6.webp + 3 recuadros "Tu foto acá"
+Para cambiar una: guardá tu foto en assets/img/ con el MISMO nombre (o cambiá el
+nombre en index.html). Si usás fotos propias, borrá el texto de "Fotos de ejemplo"
+del pie de página.
+Logo: buscá "LOGO:" en index.html; ahí dice cómo poner el logo real (assets/img/logo.png).
+
+COLORES: al principio de styles.css (--gold es el dorado).
+
+HORARIOS: si cambian, editá la tabla en index.html y la línea HOURS en main.js
+(esa es la que calcula el cartel "Abierto ahora").
+
+PUBLICAR
+- Netlify (gratis): entrá a app.netlify.com/drop y arrastrá la carpeta leon-gym-web.
+- Hostinger: hPanel > Archivos > Administrador de archivos > public_html, subí TODO
+  el contenido de esta carpeta (incluido el archivo .htaccess).
+- Cada vez que cambies styles.css o main.js, cambiá ?v=20261109 por la fecha nueva
+  en index.html, así los celulares no muestran la versión vieja.
